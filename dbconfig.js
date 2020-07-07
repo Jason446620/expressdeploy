@@ -8,9 +8,9 @@ module.exports = {
           "databases": {
               "dbinmysql": {
                   "database": "mysql", //you should always save these values in environment variables
-                  "username": "panshubei@panshubeimysql",  //only for testing purposes you can also define the values here
-                  "password":  "Jason.446620",
-                  "host": "panshubeimysql.mysql.database.azure.com",
+                  "username": "p***ei@panshubeimysql",  //only for testing purposes you can also define the values here
+                  "password":  "J****",
+                  "host": "pa****azure.com",
                   "port": 3306,
                   "ssl":true,
                   "dialect": "mysql",  //here you need to define the dialect of your databse, in my case it is Postgres
