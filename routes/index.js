@@ -9,10 +9,10 @@ let re = "";
 /* GET home page. */
 router.get('/', function (req, res, next) {
       var connection = mysql.createConnection({
-        host: 'panshubeimysql.mysql.database.azure.com',
+        host: 'pa******.mysql.database.azure.com',
         port: '3306',
-        user: 'panshubei@panshubeimysql',
-        password: 'Jason.446620',
+        user: 'pa*****l',
+        password: '******',
         database: 'mysql',
         ssl: {
             ca: fs.readFileSync(path.resolve(__dirname, 'BaltimoreCyberTrustRoot.crt.pem'))
